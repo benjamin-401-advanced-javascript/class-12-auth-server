@@ -4,7 +4,7 @@
 const superagent = require('superagent');
 const Users = require('../users-model.js');
 
-const API = 'http://localhost:3000';
+const API = 'https://cf-class-12-server.herokuapp.com';
 const requestOauthURL = 'https://github.com/login/oauth/access_token';
 const SERVICE = 'https://api.github.com/user';
 
